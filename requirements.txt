@@ -1,0 +1,6 @@
+Streamlit version == 1.26.0
+TensorFlow version == 2.13.0
+PIL version == 9.2.0
+Pandas version == 1.4.3
+NumPy version == 1.24.3
+keras version == 2.13.1
