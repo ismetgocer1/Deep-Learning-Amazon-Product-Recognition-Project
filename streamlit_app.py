@@ -37,8 +37,8 @@ elif upload_method == "From Internet":
 
     
 # Model seçimi
-st.sidebar.title("Model Selection")
-selected_model = st.sidebar.radio("Select an Model:", ["InceptionV3", "MobilNet",  "VGG16"])          
+st.sidebar.title("Model") # Cok model calisacagi zaman "Model Selection"
+selected_model = st.sidebar.radio("Model:", ["VGG16"]) # Ilk Kismi; "Select an Model:" idi. [] icine diger modellerin isimleri de yazilabiliyor          
         
 # Resmi yükle ve tahmin et butonları
 if uploaded_image is not None or (upload_method == "From Internet" and image_url):
