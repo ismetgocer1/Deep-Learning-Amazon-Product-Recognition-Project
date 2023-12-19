@@ -1,6 +1,6 @@
 streamlit==1.28.1
 tensorflow==2.15.0
-Image==9.4.0
+Image==1.5.30
 pandas==2.0.3
 numpy==1.24.3
 requests==2.31.0
